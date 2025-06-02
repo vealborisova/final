@@ -1,0 +1,163 @@
+﻿update;писать git commit, но бот не останавливался
+update;коммить уже задеплоенного бота
+update;проекты не получают обновление с гита
+update;переодически приложение зависает в статусе сборки, хотя сервис досупен публично 
+update;проблема обновления проекта (бот в телеге)
+update;Не получается обновить проект
+update;Сборка/развертывание перестала работать
+freq-errors;привязать репозиторий
+freq-errors;Repository … not found
+freq-errors;проблема с пушем
+freq-errors;Whitelabel error page
+freq-errors;после пуша не запустилась сборка как обычно
+freq-errors;Author identity unknown
+freq-errors;при попытке отправить изменения на remote возникает ошибка 404
+freq-errors;пуш сам нормально не завершается, только через ctrl c, после этого пишет при пуше, что файлы в актуальном состоянии, не нашел, где посмотреть репо, который работает на сервере
+freq-errors;Не пушится проект, пишет в консоли, что все ок, но проект пустой и не запускается на сервисе
+freq-errors; Не могу обновить файлы
+freq-errors;the current branch master has no upstream branch
+freq-errors;error: src refspec master does not match any
+freq-errors;error: failed to push some refs to 
+freq-errors;не хочет пушить файлы
+freq-errors;при отправке изменений на Amvera получаю постоянно такую ошибку push: failed to push some refs
+freq-errors;repository not found (.venv) PS 
+freq-errors;error: remote amvera already exists.
+freq-errors;src refspec master does not match any
+freq-errors;failed to push some refs to
+freq-errors;не удается отравить некоторые ссылки в
+freq-errors;Нет реакции на git push после пересборки проекта (нажал на кнопку пересобрать в интерфейсе сайта)
+freq-errors; почему может собираться актуальная версия с репозитория? Запушила на amvera несколько коммитов, но никаких изменений
+freq-errors;проект не хочет развертываться
+freq-errors;почему при попытке клонирования репозитория новосозданного проекта гит выдаёт что repository not found
+freq-errors;репо по ссылке со страницы проекта недоступен
+freq-errors;не обновляется файл в репо
+freq-errors; не могу запустить свой проект
+tgbot;no module named
+tgbot;Контейнер перешел в статус FAILED
+tgbot;не могу развернуть бота
+tgbot;ImportError: Unable to import required dependencies
+tgbot;numpy: Error importing numpy: you should not try to import numpy from
+tgbot;нет модуля telebot
+tgbot;ModuleNotFoundError: No module named 'aiogram
+tgbot;ModuleNotFoundError: No module named 'telebot'
+tgbot; в боте не работают команды там где есть lis
+tgbot;"ERROR - TeleBot: ""Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is runnin"
+tgbot;ModuleNotFoundError: no module named
+tgbot;у вас есть поддержка библиотеки telebot для Python? При сборке проекта логи показывают, что не могут её найти
+tgbot;"aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running"
+tgbot;статус проекта «Приложение запущено», но бот молчит
+tgbot;Нет логов
+payments;оплата не проходит
+payments;Mastercard
+payments;прием платежей
+payments;QIWI
+payments;UnionPay
+payments;Visa
+payments;платежная система
+not-found-file;ImportError: libGL.so.1: cannot open shared object file: No such file or directory
+not-found-file;ImportError: libGL.so.1: cannot open shared object file: No such file or directory
+not-found-file; не подскажите что за ошибка:  No such file or directory
+not-found-file;Can't open file '/app/aiogram.py' no such file or directory
+not-found-file;Can't open file app.py
+not-found-file;Разворачиваю бота, локально работает, в логах сборки ошибок нет, в логах приложения пишет Can't open file '/app/aiogram.py' no such file or directory
+not-found-file;can't open file '/app/bot/main.py
+not-found-file;не нашлась библиотека openai, хотя в requirements ее указывал, подскажите , как можно решить
+not-found-file;Файл добавил, а открыть его не может
+infinite-build-run;Контейнер перешел в статус PENDING
+infinite-build-run; что делать при бесконечной сборке
+infinite-build-run;"состояние ""Проект развёртывается"" не меняется"
+infinite-build-run;Нормально ли то, что приложение собирается уже 2 часа
+infinite-build-run;почему не запускается проект через хостинг Amvera
+infinite-build-run;Проект что-то не собирается, просто бесконечная загрузка
+infinite-build-run;"второй день висит ""Проект разворачивается"""
+infinite-build-run;Проект «завис» при сборке/запуске
+infinite-build-run;неактивны кнопки пересборки/перезапуска
+infinite-build-run;Нет логов
+infinite-build-run;статус «Выполняется запуск» наблюдается более 5 минут
+errors-in-logs;No such file or directory
+errors-in-logs;> npx npm-run-all --parallel start start:bot
+errors-in-logs;sh: 1: npm-run-all: Permission denied
+errors-in-logs;no such file or directory: unknown
+errors-in-logs;Error: Unable to access jarfile
+errors-in-logs;Контейнер перешел в статус DELETED
+errors-in-logs;ModuleNotFoundError: No module named 'install'
+errors-in-logs;Error: [Errno 13] Permission denied: '/app/venv'
+errors-in-logs;ModuleNotFoundError: No module named 'aiogram
+errors-in-logs;получаю ошибку no main manifest attribute, in *.jar но файл MANIFEST.MF есть в проекте и загружен
+enverror;почему не запускается проект. логи /app/venv/bin/activate: No such file or directory
+enverror;развертывание завершилосо с ошибкой. Проверьте правильность amvera.yaml/dockerfile
+enverror;ошибка развертывания
+enverror;ошибка возникает при запуске или сборке проекта /app/venv/bin/activate: No such file or directory
+enverror;Error: [Errno 13] Permission denied: '/app/venv'
+enverror; Не удается пересобрать проект после замены файла
+enverror;Error: [Errno 13] Permission denied: '/app/venv'
+enverror;No module named pip
+enverror;после пересборки проекта статус завис на выполняется сборка, пробовал пересобрать через конфигурацию, потом заморозил и больше проект не поднимается
+enverror;В логах приложения - bash: line 1: /app/venv/bin/activate: No such file or directory
+enverror;В логах сборки  Error: [Errno 13] Permission denied: '/app/venv'
+enverror;Error: Command '['/app/venv/bin/python3', '-Im', 'ensurepip', '--upgrade', '--default-pip']' returned non-zero exit status 1.
+enverror;тыкнул пересобрать проект и получил ошибку
+enverror;Завис в состоянии «Выполняется сборка»
+enverror;/app/venv/bin/python3 No module named pip.__main__ pip is a package and can not be directly executed
+enverror;ERROR: Could not install packages due to an OSError: [Errno 13] Permission denied: '/.local' Check the permissions.
+enverror;как решить ошибку «No module named pip»
+enverror;не могу зайти в папку /data в репозитории
+enverror;чтобы файлы дописывались, их именно в папку /data класть
+enverror;при сборке проекта выдает ошибку 500 и ничего не запускается
+enverror; выполнил инструкцию подключения гитхаба  Добавил вебхук к репозитории добавил секрет ветка master Делаю пуш на гитхаб но хостинг так и не взял проект с гитхаба
+enverror; Попробовал подключить обычного echo bot из aiogram, но в логах повторяется ошибка bash: line 1: /app/venv/bin/activate: No such file or directory
+enverror;Зафиксирован ошибка сборки
+enverror;ModuleNotFoundError:  No module named pip._internal.models.scheme
+enverror;Не могу перезапустить бота
+enverror;bash: line 1: /app/venv/bin/gunicorn: Permission denied
+enverror;ERROR: Could not install packages due to an OSError: [Errno 13] Permission denied: '/.local'
+502-503-error;npm error enoent
+502-503-error;npm error enoent This is related to npm not being able to find a file.
+502-503-error;npm error enoent Could not read package.json: Error: ENOENT: no such file or directory, open '/app/package.json'
+502-503-error;A complete log of this run can be found in
+502-503-error;почему-то сайт не работает, ошибка 502
+502-503-error;я указываю порт только при внешнем доменном имени. Если не указываю, то ловлю 502
+502-503-error;502 и 503 ошибки
+502-503-error;вижу ошибку 404 page not found на странице
+502-503-error;вижу 502 ошибку по https если подключаться
+502-503-error;ошибку 502 мне выдает сервер амверы, а не мой
+502-503-error; на домене 502 висит и api не работает
+502-503-error;502 ошибка с чем связана
+502-503-error;у меня 502 ошибка с приложением на PHP
+502-503-error; когда открываю мини приложение, там просто серый экран
+502-503-error;У меня пакет требует сборку с CGO_ENABLED=0, проект собирается но при этом 503 ошибка
+502-503-error;Делал всё по инструкции, но домен  не открывается. ошибка 503
+502-503-error;при открытии страницы пишет плохой шлюз
+502-503-error;" при запуске приложения получаю ошибку ""Приложение запускается или работает с ошибкой через минуту показывает ""Приложение запущено"". После перехода по url появляется ошибка 502 Bad Gateway"
+502-503-error;как остановить работу скрипта у себя
+502-503-error;обновил некоторые файлы в проекте, и сейчас 502 словил, но до обновления файлов домен подключал
+502-503-error;502 ошибка
+502-503-error;Всё запускается, но по ссылке получаю 502 ошибку. В логах пишет что приложение собрано и запущено.
+502-503-error;при открытии Tg WebApp появляется ошибка 502, но со стороны сервера нет никаких предупреждений и ошибок
+502-503-error;сборку произвел, запуск произошел, но при переходе по внешней ссылке открывает 404 ошибку. Если делать локально на своем устройство, то по внутреннему адресу все открывается
+502-503-error; We got Status Code: 502
+502-503-error;создаю Телеграм бота для работы в pyrus, из телеграмма сообщение отправляется в pyrus но когда я отправляю из pyrus то сообщение не доходит и в pyrus у меня статус по боту 502
+502-503-error;. После отправки запроса получен ответ  502 Bad Gateway
+502-503-error;"Статус ""запускается или работает с ошибкой"""
+502-503-error;пишет запущено, но боты все равно не работают
+502-503-error; разработал бота на платформе pyrus и при обращение по URL pyrus-mvn.amvera.io у меня выходит 502 ошибка
+502-503-error;Создал Dockerfile, но сайт также выдает 502 nginx ошибку
+502-503-error;Есть flask проект на python  все работает, но когда пытаюсь перейти по ссылке ничего не грузит
+502-503-error;Ошибок никаких Но, Nginx не связывает
+502-503-error; Пытаюсь задеплоить проект, все успешно развертывается, но ошибка 502
+502-503-error;502 плохих шлюза
+502-503-error;nginx бросает 502-ю ошибку
+502-503-error;Host не изменен на 0.0.0.0
+502-503-error;запустил свой проект, но когда перехожу по доменному имени пишет 502 Bad Gateway
+502-503-error;Ошибка 503
+data-saving;sqltie файл обнулился
+data-saving;Ошибка развертывания. Смотри лог приложения
+data-saving;После пересборки папка data очищается?
+data-saving;Бота загрузил, всё работает, сервер с бд (скюлайт) взаимодействует полностью, но когда скачиваю бд, то бд возвращается без изменений, хотя там изменения сохраняются
+data-saving;Думал тут данные которые не удаляются при передеплое. Но у меня тут пусто. За то виду папку /data в artifacts и там данные вроде не удаляются
+data-saving;как сделать, чтобы при работе с проектом в dev, не подгружалась база на prod, а то я тупо взял и перетер ее
+data-saving;сохраняете в /data базу данных SQLite
+data-saving;при перезапуске/пересборке проекта данные не сохраняются
+UTC-time;UTC
+UTC-time;на серверах Amvera время - UTC
+UTC-time;время UTC (-3 часа от МСК) и может не совпадать с временем в вашем регионе
